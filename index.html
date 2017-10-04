@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="be">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Аўтаматычны транслітаратар на лацінку. Перавесці тэкст у лацінку. Aŭtamatyčny translitaratar na łacinku. Pieraviesci tеkst u łacinku.">
+    <meta name="keywords" content="Беларуская лацінка, транслітарацыя, пераклад, Biełaruskaja łacinka, translitaracyja, pierakład.">
+    <title>Translitaracyja ŭ lacinku</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://getbootstrap.com/docs/4.0/examples/sticky-footer/sticky-footer.css"/>
+</head>
+<body>
+<div class="container">
+    <h1>Translitaracyja ŭ łacinku</h1>
+    <form id="transForm">
+        <div class="form-group">
+            <label for="input">Тэкст на кірыліцы</label>
+            <textarea class="form-control" id="input" rows="15" required></textarea>
+        </div>
+        <div class="form-group text-right">
+            <button type="submit" class="btn btn-primary">Translitaravać</button>
+        </div>
+        <div class="form-group">
+            <label for="output">Tekst na łacinkie</label>
+            <textarea class="form-control" id="output" rows="15" disabled></textarea>
+        </div>
+    </form>
+</div>
+<footer class="footer">
+    <div class="container">
+        <span class="text-muted">Alpha <a href="https://github.com/na-ringtail/latinize-me">viersyja</a>. Raspracavana praz <a href="mailto:na.ringtail@gmail.com">Ringtail</a>. Budziem udziačny za dapamohu.</span>
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="lacin.js?v=1.0.6" charset="utf-8" language="JavaScript"></script>
+</body>
+</html>
