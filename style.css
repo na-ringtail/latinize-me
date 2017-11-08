@@ -1,0 +1,57 @@
+@media screen and (min-width: 768px) {
+
+    html, body {
+        min-height: 100%;
+        height: 100%
+    }
+    .lm-container {
+        height: 85%;
+    }
+    .table-container {
+        display: table;
+        height: 100%;
+        width: 100%;
+        margin-left: 0;
+    }
+    .lm-col-1 {
+        display: table-cell;
+        float:none;
+        height:90%;
+        width:50%;
+    }
+    .lm-col-2 {
+        display: table-cell;
+        float:none;
+        height:90%;
+        width:50%;
+    }
+    .lm-form-group {
+        height:100%;
+    }
+
+    .lm-form-group textarea {
+        height:85%;
+    }
+}
+
+.lm-container h1 {
+    padding-left: 15px;
+}
+
+.lm-btn {
+    margin-top: 20px;
+}
+
+.lm-col-2 textarea,
+.lm-col-2 textarea:focus {
+    background-color: #F5F5F5;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    padding: 10px 15px;
+    background-color: #F5F5F5;
+    width: 100%
+}
