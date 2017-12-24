@@ -10,7 +10,7 @@
 
 .lm-col-1 textarea,
 .lm-col-2 textarea {
-    min-height: 20em;
+    min-height: 10em;
 }
 
 .lm-col-2 textarea,
@@ -33,11 +33,32 @@ footer {
     width: 100%
 }
 
-@media screen and (max-width: 600px) {
-    .lm-container {
-        padding-bottom: 4.5em;
+.lm-btn-bottom {
+
+    margin-top: 1.5em;
+}
+
+@media screen and (min-width: 993px) {
+
+    .lm-btn-bottom {
+        display: none;
     }
+}
+
+@media screen and (max-width: 992px) {
+
+    .lm-btn-top{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .lm-container {
+        padding-bottom: 0;
+    }
+
     footer {
-        height: 4.5em;
+        display: none;
     }
 }

@@ -337,13 +337,13 @@ $(function(){
     $(document).on('submit', '#transForm', function(e){
         e.preventDefault();
         transliterate();
-        location.href = '#output-holder'
+        document.getElementById('output-holder').scrollIntoView();
     });
 
     $('#output').parent().on( 'change keyup keydown paste cut', 'textarea', function (){
         $(this).height(0).height(this.scrollHeight-16);
     });
-    $('#input').parent().on( 'change keyup keydown paste cut', 'textarea', function (){
+    $('#input').parent().on( 'keyup paste cut', 'textarea', function (){
         $(this).height(0).height(this.scrollHeight-16);
     });
 });
