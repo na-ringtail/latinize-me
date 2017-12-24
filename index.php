@@ -45,7 +45,7 @@
             </div>
         </div>
         <div class="col-md-6 lm-col-2">
-            <div class="form-group">
+            <div class="form-group" id="output-holder">
                 <label for="output">Tekst na łacincy</label>
                 <textarea class="form-control" id="output"></textarea>
             </div>

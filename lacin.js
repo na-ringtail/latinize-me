@@ -337,6 +337,7 @@ $(function(){
     $(document).on('submit', '#transForm', function(e){
         e.preventDefault();
         transliterate();
+        location.href = '#output-holder'
     });
 
     $('#output').parent().on( 'change keyup keydown paste cut', 'textarea', function (){
