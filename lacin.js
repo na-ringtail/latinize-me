@@ -331,11 +331,18 @@ $(function(){
             text = text.replaceAll( key,value );
         });
 
-        $('#output').val(text);
+        $('#output').val(text).change();
     }
 
     $(document).on('submit', '#transForm', function(e){
         e.preventDefault();
         transliterate();
-    })
+    });
+
+    $('#output').parent().on( 'change keyup keydown paste cut', 'textarea', function (){
+        $(this).height(0).height(this.scrollHeight-16);
+    });
+    $('#input').parent().on( 'change keyup keydown paste cut', 'textarea', function (){
+        $(this).height(0).height(this.scrollHeight-16);
+    });
 });
