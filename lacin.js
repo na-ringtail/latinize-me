@@ -343,7 +343,9 @@ $(function(){
     $('#output').parent().on( 'change keyup keydown paste cut', 'textarea', function (){
         $(this).height(0).height(this.scrollHeight-16);
     });
-    $('#input').parent().on( 'keyup paste cut', 'textarea', function (){
+
+    var input = $('#input');
+    input.parent().on( 'focusout keyup paste cut', 'textarea', function (){
         $(this).height(0).height(this.scrollHeight-16);
     });
 });

@@ -1,16 +1,18 @@
 .lm-container {
-    padding-bottom: 3em;
+    background: url('/img/arnamient-73.png') repeat-x top transparent;
 }
 
 .lm-container h1 {
-    padding-left: 15px;
+    padding-top: 50px;
     margin-top:20px;
     margin-bottom:20px;
+    color: #E12429;
 }
 
 .lm-col-1 textarea,
 .lm-col-2 textarea {
     min-height: 10em;
+    font-size: 1.5rem;
 }
 
 .lm-col-2 textarea,
@@ -20,17 +22,23 @@
 
 .lm-col-1 label,
 .lm-col-2 label {
-    padding-top: 1em;
-    height: 3em;
+    font-size: 1.5rem;
+    height: 2em;
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
-    height: 3em;
-    padding: 10px 15px;
-    background-color: #F5F5F5;
-    width: 100%
+.lm-btn {
+    color: #ffffff;
+    background-color: #E12429;
+    border-color: #C31B1F;
+    cursor: pointer;
+}
+
+a {
+    color: #e12429;
+}
+
+a:hover {
+    color: #b31a1e;
 }
 
 .lm-btn-bottom {
@@ -38,10 +46,26 @@ footer {
     margin-top: 1.5em;
 }
 
+footer {
+    background: url('/img/arnamient-73.png') repeat-x top transparent;
+}
+
 @media screen and (min-width: 993px) {
+
+    .lm-container {
+        padding-bottom: 3em;
+    }
 
     .lm-btn-bottom {
         display: none;
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        height: 3em;
+        padding: 2.5em 15px;
+        width: 100%
     }
 }
 
@@ -49,6 +73,12 @@ footer {
 
     .lm-btn-top{
         display: none;
+    }
+
+    .lm-col-1 textarea,
+    .lm-col-2 textarea {
+        min-height: 8em;
+        font-size: 1.5rem;
     }
 }
 
