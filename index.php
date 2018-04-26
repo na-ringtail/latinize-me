@@ -11,7 +11,7 @@
     <title>Аўтаматычны лацінізатар</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
           integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    <link rel="stylesheet" href="/style.css?v=1.0.19"/>
+    <link rel="stylesheet" href="/style.css?v=1.0.20"/>
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -56,13 +56,14 @@
             </div>
         </div>
     </form>
-</div>
-<footer class="footer">
-    <div class="container-fluid text-right">
+    <footer class="footer row">
+        <div class="container-fluid text-right">
         <span class="text-muted">Alpha <a href="https://github.com/na-ringtail/latinize-me">viersyja</a>. Raspracavana praz <a
                 href="mailto:na.ringtail@gmail.com">Ringtail</a>. Budziem udziačny za dapamohu.</span>
-    </div>
-</footer>
+        </div>
+    </footer>
+</div>
+
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
