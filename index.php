@@ -58,8 +58,8 @@
     </form>
     <footer class="footer row">
         <div class="container-fluid text-right">
-        <span class="text-muted">Alpha <a href="https://github.com/na-ringtail/latinize-me">viersyja</a>. Raspracavana praz <a
-                href="mailto:na.ringtail@gmail.com">Ringtail</a>. Budziem udziačny za dapamohu.</span>
+        <span class="text-muted">Raspracavana praz <a
+                href="mailto:na.ringtail@gmail.com">Ringtail</a> dla hramadzkaha ab'jadnańnia <a href="https://www.facebook.com/dziejaby/"><img src="/img/dzieja.png"/></a></span>
         </div>
     </footer>
 </div>
