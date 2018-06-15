@@ -73,7 +73,7 @@ footer {
 
 @media screen and (max-width: 992px) {
 
-    .lm-btn-top{
+    .lm-btn-top {
         display: none;
     }
 
@@ -81,6 +81,14 @@ footer {
     .lm-col-2 textarea {
         min-height: 8em;
         font-size: 1.5rem;
+    }
+
+    .main-form {
+        padding-bottom: 75px;
+    }
+
+    footer .text-muted {
+        padding-bottom: 10px;
     }
 }
 

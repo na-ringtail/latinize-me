@@ -11,7 +11,7 @@
     <title>Аўтаматычны лацінізатар</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
           integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    <link rel="stylesheet" href="/style.css?v=1.0.20"/>
+    <link rel="stylesheet" href="/style.css?v=1.0.24"/>
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -36,7 +36,7 @@
 <?php if (is_file('ym.phtml')) echo file_get_contents('ym.phtml'); ?>
 <div class="container-fluid lm-container">
     <h1>Аўтаматычны лацінізатар</h1>
-    <form id="transForm" class="row">
+    <form id="transForm" class="row main-form">
         <div class="col-lg-6 lm-col-1">
             <div class="form-group">
                 <label for="input">Тэкст на кірыліцы</label>
